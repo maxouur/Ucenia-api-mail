@@ -16,7 +16,7 @@ st.set_page_config(
 # ── CSS ──────────────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
-[data-testid="stAppViewContainer"] { background: #0e1117; color: white; }
+[data-testid="stAppViewContainer"] { background: #0e1117;}
 [data-testid="stSidebar"] { background: #ffffff; border-right: 1px solid #e5e3dc; }
 .metric-card {
     background: #1e1e1e; /* Fond gris anthracite */
