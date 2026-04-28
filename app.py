@@ -19,11 +19,15 @@ st.markdown("""
 [data-testid="stAppViewContainer"] { background: #0e1117; color: white; }
 [data-testid="stSidebar"] { background: #ffffff; border-right: 1px solid #e5e3dc; }
 .metric-card {
-    background: white; border: 1px solid #e5e3dc; border-radius: 10px;
-    padding: 1rem 1.25rem; text-align: center;
+    background: #1e1e1e; /* Fond gris anthracite */
+    border: 1px solid #333333; /* Bordure discrète */
+    border-radius: 10px;
+    padding: 1rem 1.25rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3); /* Ombre pour donner du relief */
 }
-.metric-label { font-size: 12px; color: #888; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
-.metric-value { font-size: 28px; font-weight: 600; }
+.metric-label { color: #aaaaaa; } /* Texte gris clair pour le label */
+.metric-value { color: #ffffff; } /* Valeur en blanc pur */
 .found    { color: #1D9E75; }
 .notfound { color: #D85A30; }
 .neutral  { color: #222; }
