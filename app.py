@@ -16,8 +16,18 @@ st.set_page_config(
 # ── CSS ──────────────────────────────────────────────────────────────────────
 st.markdown("""
 <style>
-[data-testid="stAppViewContainer"] { background: #0e1117;}
-[data-testid="stSidebar"] { background: #ffffff; border-right: 1px solid #e5e3dc; }
+[data-testid="stSidebar"] {
+    background: #1e1e1e; /* Fond sombre */
+    color: white;        /* Texte en blanc */
+    border-right: 1px solid #333333;
+}
+
+/* Force la couleur des textes et labels dans la sidebar */
+[data-testid="stSidebar"] .stText, 
+[data-testid="stSidebar"] label, 
+[data-testid="stSidebar"] .stMarkdown {
+    color: white !important;
+}
 .metric-card {
     background: #1e1e1e; /* Fond gris anthracite */
     border: 1px solid #333333; /* Bordure discrète */
